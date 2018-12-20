@@ -10,14 +10,11 @@
   }
 
   &.account--photo {
-    background: url(../shared/img/404/bg_404.png) no-repeat center;
-    background-size: cover;
-
+    background: #6fb9fb;
     .account__card {
       background-color: rgba(0, 10, 16, 0.8);
       color: #ffffff;
     }
-
     .form__form-group-icon, .form__form-group-button {
       background: transparent;
     }

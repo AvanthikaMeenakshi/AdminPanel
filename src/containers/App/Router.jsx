@@ -45,9 +45,9 @@ import NotFound404 from '../DefaultPage/404/index';
 // import Profile from '../Account/Profile/index';
 // import EmailConfirmation from '../Account/EmailConfimation/index';
 import LockScreen from '../Account/LockScreen/index';
-import LogIn from '../Account/LogIn/index';
+// import LogIn from '../Account/LogIn/index';
 import LogInPhoto from '../Account/log_in_photo/index';
-import Register from '../Account/Register/index';
+// import Register from '../Account/Register/index';
 import RegisterPhoto from '../Account/RegisterPhoto/index';
 
 // import BasicForm from '../Form/BasicForm/index';
@@ -258,11 +258,10 @@ const Router = () => (
     <main>
       <Switch>
         <Route exact path="/" component={LogInPhoto} />
+        <Route exact path="/login" component={LogInPhoto} />
         <Route path="/404" component={NotFound404} />
         <Route path="/lock_screen" component={LockScreen} />
-        <Route path="/log_in" component={LogIn} />
-        <Route path="/register" component={Register} />
-        <Route path="/register_photo" component={RegisterPhoto} />
+        <Route path="/register" component={RegisterPhoto} />
         <Route path="/" component={wrappedRoutes} />
       </Switch>
     </main>

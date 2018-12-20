@@ -104,7 +104,7 @@ class SidebarContent extends Component {
             <SidebarLink title="Log In Photo" route="/log_in_photo" />
             <SidebarLink title="Profile" route="/account/profile" onClick={this.hideSidebar} />
             <SidebarLink title="Register" route="/register" />
-            <SidebarLink title="Register Photo" route="/register_photo" />
+            <SidebarLink title="Register Photo" route="/register" />
           </SidebarCategory>
           <SidebarCategory title="E-commerce" icon="cart">
             <SidebarLink title="Cart" route="/e-commerce/cart" onClick={this.hideSidebar} />

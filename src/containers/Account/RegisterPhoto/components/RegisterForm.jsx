@@ -89,5 +89,5 @@ class RegisterForm extends PureComponent {
 }
 
 export default reduxForm({
-  form: 'register_photo_form', // a unique identifier for this form
+  form: 'register_form', // a unique identifier for this form
 })(RegisterForm);

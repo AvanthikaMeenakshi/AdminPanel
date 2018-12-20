@@ -60,7 +60,7 @@ const TopbarNavOtherPages = () => (
           <TopbarNavLink title="Log In Photo" route="/log_in_photo" />
           <TopbarNavLink title="Profile" route="/account/profile" />
           <TopbarNavLink title="Register" route="/register" />
-          <TopbarNavLink title="Register Photo" route="/register_photo" />
+          <TopbarNavLink title="Register Photo" route="/register" />
         </TopbarNavCategory>
       </DropdownItem>
       <DropdownItem>
